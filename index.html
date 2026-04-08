@@ -29,12 +29,18 @@
         <div class="container nav-container">
             <a href="#" class="logo">SZ<span class="dot">.</span></a>
             <ul class="nav-links">
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experiência</a></li>
-                <li><a href="#projects">Projetos</a></li>
-                <li><a href="#contact" class="btn-primary-small">Contato</a></li>
+                <li><a href="#about" data-i18n="nav.about">Sobre</a></li>
+                <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+                <li><a href="#experience" data-i18n="nav.experience">Experiência</a></li>
+                <li><a href="#projects" data-i18n="nav.projects">Projetos</a></li>
+                <li><a href="#presentation" data-i18n="nav.presentation">Apresentação</a></li>
+                <li><a href="#contact" class="btn-primary-small" data-i18n="nav.contact">Contato</a></li>
             </ul>
+            <div class="lang-switcher" aria-label="Seletor de idioma">
+                <button class="lang-btn active" data-lang="pt" aria-pressed="true">PT</button>
+                <span class="lang-sep" aria-hidden="true">|</span>
+                <button class="lang-btn" data-lang="es" aria-pressed="false">ES</button>
+            </div>
             <button class="mobile-menu-btn">
                 <i class="ph ph-list"></i>
             </button>
@@ -45,32 +51,32 @@
     <header id="home" class="hero-section">
         <div class="container hero-content">
             <div class="hero-text">
-                <span class="hero-subtitle">Analista de Dados | Automação & Indústria 4.0</span>
-                <h1 class="hero-title">Transformando Dados em <span class="highlight">Inteligência Industrial</span></h1>
-                <p class="hero-desc">
+                <span class="hero-subtitle" data-i18n="hero.subtitle">Analista de Dados | Automação & Indústria 4.0</span>
+                <h1 class="hero-title"><span data-i18n="hero.title.main">Transformando Dados em</span> <span class="highlight" data-i18n="hero.title.highlight">Inteligência Industrial</span></h1>
+                <p class="hero-desc" data-i18n="hero.desc">
                     Especialista em criar pontes entre dados operacionais e decisões estratégicas. 
                     Otimizando processos na DEXCO S.A. através de Python, Power BI, PI System e IA.
                 </p>
                 <div class="hero-btns">
                     <a href="#projects" class="btn-primary">
-                        Ver Projetos <i class="ph ph-arrow-right"></i>
+                        <span data-i18n="hero.btn.projects">Ver Projetos</span> <i class="ph ph-arrow-right"></i>
                     </a>
-                    <a href="#contact" class="btn-secondary">
+                    <a href="#contact" class="btn-secondary" data-i18n="hero.btn.contact">
                         Entrar em Contato
                     </a>
                 </div>
                 <div class="hero-stats">
                     <div class="stat-item">
                         <span class="stat-number" data-target="2">0</span>
-                        <span class="stat-label">Anos de Experiência</span>
+                        <span class="stat-label" data-i18n="hero.stat.exp">Anos de Experiência</span>
                     </div>
                     <div class="stat-item">
                         <span class="stat-number" data-target="15">0</span>
-                        <span class="stat-label">Projetos de Automação</span>
+                        <span class="stat-label" data-i18n="hero.stat.projects">Projetos de Automação</span>
                     </div>
                     <div class="stat-item">
                         <span class="stat-number" data-target="100">0</span><span class="plus">%</span>
-                        <span class="stat-label">Foco em Eficiência</span>
+                        <span class="stat-label" data-i18n="hero.stat.focus">Foco em Eficiência</span>
                     </div>
                 </div>
             </div>
@@ -98,27 +104,27 @@
     <!-- About Section -->
     <section id="about" class="section">
         <div class="container">
-            <h2 class="section-title">Sobre <span class="highlight">Mim</span></h2>
+            <h2 class="section-title"><span data-i18n="section.about">Sobre</span> <span class="highlight" data-i18n="section.about.highlight">Mim</span></h2>
             <div class="about-content glass-card">
                 <div class="about-text">
-                    <p>
+                    <p data-i18n-html="about.p1">
                         Atuo como <strong>Analista de Dados focado em Automação e Indústria 4.0</strong>, combinando expertise técnica em sistemas mecânicos com análise de dados avançada. Minha missão é transformar grandes volumes de dados industriais em insights acionáveis que impulsionam a eficiência operacional.
                     </p>
-                    <p>
+                    <p data-i18n-html="about.p2">
                         Atualmente na <strong>DEXCO S.A.</strong>, lidero iniciativas de digitalização que vão desde a extração de dados brutos do chão de fábrica (PI System) até a visualização executiva (Power BI/Grafana), passando por automações inteligentes (RPA/Python) que eliminam tarefas repetitivas e reduzem erros humanos.
                     </p>
                     <div class="education-grid">
                         <div class="edu-item">
                             <i class="ph ph-graduation-cap"></i>
                             <div>
-                                <h4>Análise de Sistemas</h4>
+                                <h4 data-i18n="edu.systems">Análise de Sistemas</h4>
                                 <span>Unicesumar</span>
                             </div>
                         </div>
                         <div class="edu-item">
                             <i class="ph ph-gear"></i>
                             <div>
-                                <h4>Mecânica Industrial</h4>
+                                <h4 data-i18n="edu.mechanics">Mecânica Industrial</h4>
                                 <span>SENAI</span>
                             </div>
                         </div>
@@ -131,12 +137,12 @@
     <!-- Skills Section -->
     <section id="skills" class="section">
         <div class="container">
-            <h2 class="section-title">Minhas <span class="highlight">Habilidades</span></h2>
+            <h2 class="section-title"><span data-i18n="section.skills">Minhas</span> <span class="highlight" data-i18n="section.skills.highlight">Habilidades</span></h2>
             <div class="skills-grid">
                 <!-- Data Analysis -->
                 <div class="skill-card glass-card">
                     <div class="skill-icon"><i class="ph ph-database"></i></div>
-                    <h3>Análise de Dados</h3>
+                    <h3 data-i18n="skill.data">Análise de Dados</h3>
                     <div class="skill-tags">
                         <span>Python</span>
                         <span>Pandas</span>
@@ -151,7 +157,7 @@
                 <!-- Automation -->
                 <div class="skill-card glass-card">
                     <div class="skill-icon"><i class="ph ph-robot"></i></div>
-                    <h3>Automação & RPA</h3>
+                    <h3 data-i18n="skill.automation">Automação & RPA</h3>
                     <div class="skill-tags">
                         <span>Power Automate</span>
                         <span>RPA</span>
@@ -164,7 +170,7 @@
                 <!-- Industrial -->
                 <div class="skill-card glass-card">
                     <div class="skill-icon"><i class="ph ph-factory"></i></div>
-                    <h3>Industrial & IoT</h3>
+                    <h3 data-i18n="skill.industrial">Industrial & IoT</h3>
                     <div class="skill-tags">
                         <span>PI System (OSIsoft)</span>
                         <span>PI Vision</span>
@@ -181,22 +187,22 @@
     <!-- Experience Section -->
     <section id="experience" class="section">
         <div class="container">
-            <h2 class="section-title">Jornada <span class="highlight">Profissional</span></h2>
+            <h2 class="section-title"><span data-i18n="section.experience">Jornada</span> <span class="highlight" data-i18n="section.experience.highlight">Profissional</span></h2>
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
                     <div class="timeline-content glass-card">
                         <div class="timeline-header">
-                            <h3>Analista de Dados | Automação & Indústria 4.0</h3>
+                            <h3 data-i18n="exp.role">Analista de Dados | Automação & Indústria 4.0</h3>
                             <span class="company">DEXCO S.A.</span>
-                            <span class="date">Fev 2024 - Presente</span>
+                            <span class="date" data-i18n="exp.date">Fev 2024 - Presente</span>
                         </div>
                         <ul class="timeline-details">
-                            <li><i class="ph ph-check-circle"></i> Desenvolvimento de automações RPA para processos administrativos e industriais, reduzindo tempo manual.</li>
-                            <li><i class="ph ph-check-circle"></i> Integração de dados SAP e extração de dados do PI System (OSIsoft) para análise de performance.</li>
-                            <li><i class="ph ph-check-circle"></i> Criação de Dashboards e KPIs em Power BI, Grafana e Streamlit para monitoramento de ativos.</li>
-                            <li><i class="ph ph-check-circle"></i> Implementação de pipelines de integração e APIs REST.</li>
-                            <li><i class="ph ph-check-circle"></i> Análise preditiva de manutenção (vibração e óleo) utilizando dados históricos.</li>
+                            <li><i class="ph ph-check-circle"></i> <span data-i18n="exp.detail1">Desenvolvimento de automações RPA para processos administrativos e industriais, reduzindo tempo manual.</span></li>
+                            <li><i class="ph ph-check-circle"></i> <span data-i18n="exp.detail2">Integração de dados SAP e extração de dados do PI System (OSIsoft) para análise de performance.</span></li>
+                            <li><i class="ph ph-check-circle"></i> <span data-i18n="exp.detail3">Criação de Dashboards e KPIs em Power BI, Grafana e Streamlit para monitoramento de ativos.</span></li>
+                            <li><i class="ph ph-check-circle"></i> <span data-i18n="exp.detail4">Implementação de pipelines de integração e APIs REST.</span></li>
+                            <li><i class="ph ph-check-circle"></i> <span data-i18n="exp.detail5">Análise preditiva de manutenção (vibração e óleo) utilizando dados históricos.</span></li>
                         </ul>
                     </div>
                 </div>
@@ -207,7 +213,7 @@
     <!-- Projects Section -->
     <section id="projects" class="section">
         <div class="container">
-            <h2 class="section-title">Projetos <span class="highlight">Reais</span></h2>
+            <h2 class="section-title"><span data-i18n="section.projects">Projetos</span> <span class="highlight" data-i18n="section.projects.highlight">Reais</span></h2>
             <div class="projects-accordion">
                 
                 <!-- Project 1: WhatsApp OM's FA1 -->
@@ -602,12 +608,410 @@
         </div>
     </section>
 
+    <!-- Presentation Section -->
+    <section id="presentation" class="section">
+        <div class="container">
+            <h2 class="section-title"><span data-i18n="section.presentation">Recopilação</span> <span class="highlight" data-i18n="section.presentation.highlight">Profissional</span></h2>
+
+            <!-- Password Gate -->
+            <div id="presentation-gate" class="glass-card presentation-gate">
+                <i class="ph ph-lock gate-icon"></i>
+                <h3 class="gate-title" data-i18n="gate.title">Área Restrita</h3>
+                <p class="gate-desc" data-i18n="gate.desc">Digite a chave de acesso para visualizar a apresentação profissional completa.</p>
+                <div class="gate-form">
+                    <input type="password" id="gate-input" class="gate-input" data-i18n-placeholder="gate.placeholder" placeholder="Chave de acesso...">
+                    <button id="gate-submit" class="btn-primary" data-i18n="gate.btn">Acessar</button>
+                </div>
+                <p id="gate-error" class="gate-error" data-i18n="gate.error">Chave incorreta. Tente novamente.</p>
+            </div>
+
+            <!-- Presentation Content (hidden until unlocked) -->
+            <div id="presentation-content">
+                <div class="presentation-header">
+                    <span class="presentation-subtitle-badge" data-i18n="presentation.subtitle">Sebastián Zambrano — Automation &amp; Data Solutions</span>
+                    <h3 class="presentation-name" data-i18n="presentation.name">🧠 Recopilação Profissional de Projetos</h3>
+                    <p class="presentation-tagline" data-i18n="presentation.tagline">Recopilação completa de projetos profissionais em Automação Industrial, Análise de Dados e Inteligência Artificial.</p>
+                    <button id="presentation-lock" class="presentation-lock-btn" data-i18n="presentation.lock">
+                        <i class="ph ph-lock-simple"></i> Bloquear acesso
+                    </button>
+                </div>
+
+                <div class="projects-accordion">
+
+                    <!-- P1: WhatsApp OM Automation -->
+                    <article class="glass-card-enhanced project-accordion-item">
+                        <div class="project-header">
+                            <div class="project-title-row">
+                                <h3 class="project-title">
+                                    <i class="ph-bold ph-chats-circle project-icon-main"></i>
+                                    <span data-i18n="p1.title">Automatização de Ordens de Manutenção via WhatsApp</span>
+                                </h3>
+                                <i class="ph-bold ph-caret-down expand-icon"></i>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tech-pill">Power Automate</span>
+                                <span class="tech-pill">Excel Avançado</span>
+                                <span class="tech-pill">RPA</span>
+                                <span class="tech-pill">WhatsApp API</span>
+                            </div>
+                            <p class="project-preview" data-i18n="p1.preview">Distribución automática semanal de OM's para mecánicos y electricistas via WhatsApp cada lunes.</p>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-body-inner">
+                                <div class="project-details">
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-warning-circle"></i> <span data-i18n="label.problem">PROBLEMA</span></h4>
+                                        <p data-i18n="p1.problem">Distribuição manual de OM's semanais para mecânicos e eletricistas gerava erros e perda de tempo.</p>
+                                    </div>
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-lightbulb"></i> <span data-i18n="label.solution">SOLUÇÃO</span></h4>
+                                        <p data-i18n="p1.solution">Automação que lê planilha Excel, valida disponibilidade do colaborador, evita envios duplicados e envia automaticamente toda segunda-feira.</p>
+                                    </div>
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-check-circle"></i> <span data-i18n="label.result">RESULTADO</span></h4>
+                                        <p data-i18n="p1.result">Eliminação do envio manual, redução de erros operativos e comunicação automática com equipes de manutenção.</p>
+                                    </div>
+                                    <img src="images/project-whatsapp.jpg" alt="Automatização de Ordens de Manutenção" class="project-image">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- P2: TRACTIAN Predictive Insights -->
+                    <article class="glass-card-enhanced project-accordion-item">
+                        <div class="project-header">
+                            <div class="project-title-row">
+                                <h3 class="project-title">
+                                    <i class="ph-bold ph-broadcast project-icon-main"></i>
+                                    <span data-i18n="p2.title">Automatização de Insights Preditivos TRACTIAN</span>
+                                </h3>
+                                <i class="ph-bold ph-caret-down expand-icon"></i>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tech-pill">Power Automate</span>
+                                <span class="tech-pill">IA NLP</span>
+                                <span class="tech-pill">Email Parsing</span>
+                                <span class="tech-pill">Automação Industrial</span>
+                            </div>
+                            <p class="project-preview" data-i18n="p2.preview">Sistema automático de distribuição de insights de monitoramento preditivo para grupos corretos por fábrica e linha.</p>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-body-inner">
+                                <div class="project-details">
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-warning-circle"></i> <span data-i18n="label.problem">PROBLEMA</span></h4>
+                                        <p data-i18n="p2.problem">Insights de monitoramento preditivo chegavam por e-mail e precisavam ser distribuídos manualmente.</p>
+                                    </div>
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-lightbulb"></i> <span data-i18n="label.solution">SOLUÇÃO</span></h4>
+                                        <p data-i18n="p2.solution">Sistema que identifica fábrica e linha automaticamente, limpa HTML do e-mail, usa IA para resumir diagnósticos técnicos e envia alertas estruturados aos grupos corretos.</p>
+                                    </div>
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-check-circle"></i> <span data-i18n="label.result">RESULTADO</span></h4>
+                                        <p data-i18n="p2.result">Informação acionável imediata e melhor tempo de resposta em manutenção.</p>
+                                    </div>
+                                    <img src="images/project-tractian.jpg" alt="TRACTIAN Insights Preditivos" class="project-image">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- P3: Dryers Analysis -->
+                    <article class="glass-card-enhanced project-accordion-item">
+                        <div class="project-header">
+                            <div class="project-title-row">
+                                <h3 class="project-title">
+                                    <i class="ph-bold ph-thermometer project-icon-main"></i>
+                                    <span data-i18n="p3.title">Análise Industrial de Secadores (Temperatura vs Produção)</span>
+                                </h3>
+                                <i class="ph-bold ph-caret-down expand-icon"></i>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tech-pill">Python</span>
+                                <span class="tech-pill">Análise Estatística</span>
+                                <span class="tech-pill">BI</span>
+                                <span class="tech-pill">Data Engineering</span>
+                            </div>
+                            <p class="project-preview" data-i18n="p3.preview">Determinar se temperaturas elevadas afetam produção, umidade e padrão produtivo (PP) nos secadores industriais.</p>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-body-inner">
+                                <div class="project-details">
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-target"></i> <span data-i18n="label.objective">OBJETIVO</span></h4>
+                                        <p data-i18n="p3.objective">Determinar se temperaturas elevadas afetam produção, umidade e padrão produtivo (PP) nos secadores industriais.</p>
+                                    </div>
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-lightbulb"></i> <span data-i18n="label.solution">SOLUÇÃO</span></h4>
+                                        <p data-i18n="p3.solution">Limpeza de dados históricos industriais, análise correlacional completa e visualizações de tendência claras para suporte à decisão.</p>
+                                    </div>
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-check-circle"></i> <span data-i18n="label.impact">IMPACTO</span></h4>
+                                        <p data-i18n="p3.impact">Base sólida para decisões operacionais baseadas em dados reais do processo industrial.</p>
+                                    </div>
+                                    <img src="images/project-prodqi.jpg" alt="Análise de Secadores" class="project-image">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- P4: Patio Analysis -->
+                    <article class="glass-card-enhanced project-accordion-item">
+                        <div class="project-header">
+                            <div class="project-title-row">
+                                <h3 class="project-title">
+                                    <i class="ph-bold ph-tree-evergreen project-icon-main"></i>
+                                    <span data-i18n="p4.title">Análise de Variáveis do Pátio Industrial (Umidade e Densidade)</span>
+                                </h3>
+                                <i class="ph-bold ph-caret-down expand-icon"></i>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tech-pill">BI</span>
+                                <span class="tech-pill">Análise Histórica</span>
+                                <span class="tech-pill">Engenharia de Dados</span>
+                            </div>
+                            <p class="project-preview" data-i18n="p4.preview">Correlação entre umidade/densidade da matéria-prima e desempenho dos secadores e prensas.</p>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-body-inner">
+                                <div class="project-details">
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-warning-circle"></i> <span data-i18n="label.problem">PROBLEMA</span></h4>
+                                        <p data-i18n="p4.problem">Variações na matéria-prima afetavam produção do secador sem que houvesse análise sistemática do impacto.</p>
+                                    </div>
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-lightbulb"></i> <span data-i18n="label.solution">SOLUÇÃO</span></h4>
+                                        <p data-i18n="p4.solution">Dashboard histórico correlacionando umidade, temperatura &gt;130°C e impacto produtivo, com extração e análise de dados históricos do pátio.</p>
+                                    </div>
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-check-circle"></i> <span data-i18n="label.result">RESULTADO</span></h4>
+                                        <p data-i18n="p4.result">Base analítica para otimização de processo e previsibilidade de produção com base na variação da matéria-prima.</p>
+                                    </div>
+                                    <img src="images/project-patio.jpg" alt="Análise do Pátio Industrial" class="project-image">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- P5: AI Automations Langflow + n8n -->
+                    <article class="glass-card-enhanced project-accordion-item">
+                        <div class="project-header">
+                            <div class="project-title-row">
+                                <h3 class="project-title">
+                                    <i class="ph-bold ph-robot project-icon-main"></i>
+                                    <span data-i18n="p5.title">Automatizações com IA (Langflow + n8n)</span>
+                                </h3>
+                                <i class="ph-bold ph-caret-down expand-icon"></i>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tech-pill">Langflow</span>
+                                <span class="tech-pill">n8n</span>
+                                <span class="tech-pill">APIs IA</span>
+                                <span class="tech-pill">LLM Workflows</span>
+                            </div>
+                            <p class="project-preview" data-i18n="p5.preview">Fluxos automáticos com IA para processamento inteligente de textos e automação de decisões operativas.</p>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-body-inner">
+                                <div class="project-details">
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-info"></i> <span data-i18n="label.developments">DESENVOLVIMENTOS</span></h4>
+                                        <p data-i18n="p5.developments">Fluxos automáticos com IA, processamento inteligente de textos, automação de decisões operativas e integração entre sistemas sem intervenção humana.</p>
+                                    </div>
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-check-circle"></i> <span data-i18n="label.result">RESULTADO</span></h4>
+                                        <p data-i18n="p5.result">Redução drástica de intervenção manual em tarefas repetitivas e geração automática de respostas e análises com LLMs integrados.</p>
+                                    </div>
+                                    <img src="images/project-ai.jpg" alt="Automatizações com IA" class="project-image">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- P6: Databricks -->
+                    <article class="glass-card-enhanced project-accordion-item">
+                        <div class="project-header">
+                            <div class="project-title-row">
+                                <h3 class="project-title">
+                                    <i class="ph-bold ph-cloud project-icon-main"></i>
+                                    <span data-i18n="p6.title">Automatização e Processamento de Dados em Databricks</span>
+                                </h3>
+                                <i class="ph-bold ph-caret-down expand-icon"></i>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tech-pill">Databricks</span>
+                                <span class="tech-pill">Python</span>
+                                <span class="tech-pill">Data Engineering</span>
+                                <span class="tech-pill">Pipelines</span>
+                            </div>
+                            <p class="project-preview" data-i18n="p6.preview">Transformação de datasets industriais e pipelines de análise para BI e IA na plataforma Databricks.</p>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-body-inner">
+                                <div class="project-details">
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-info"></i> <span data-i18n="label.applications">APLICAÇÕES</span></h4>
+                                        <p data-i18n="p6.applications">Transformação de datasets industriais, pipelines de análise de dados e preparação de dados para BI e IA com escalabilidade na nuvem.</p>
+                                    </div>
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-check-circle"></i> <span data-i18n="label.result">RESULTADO</span></h4>
+                                        <p data-i18n="p6.result">Infraestrutura de dados escalável para análise de grandes volumes de dados industriais com performance otimizada.</p>
+                                    </div>
+                                    <img src="images/project-pipeline.jpg" alt="Databricks Data Engineering" class="project-image">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- P7: Operational Dashboards -->
+                    <article class="glass-card-enhanced project-accordion-item">
+                        <div class="project-header">
+                            <div class="project-title-row">
+                                <h3 class="project-title">
+                                    <i class="ph-bold ph-chart-bar project-icon-main"></i>
+                                    <span data-i18n="p7.title">Dashboards Operacionais e BI</span>
+                                </h3>
+                                <i class="ph-bold ph-caret-down expand-icon"></i>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tech-pill">Power BI</span>
+                                <span class="tech-pill">Streamlit</span>
+                                <span class="tech-pill">Python</span>
+                                <span class="tech-pill">Grafana</span>
+                            </div>
+                            <p class="project-preview" data-i18n="p7.preview">Dashboards interativos para análise educacional e produtiva com visualizações orientadas à decisão rápida.</p>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-body-inner">
+                                <div class="project-details">
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-info"></i> <span data-i18n="label.developments">DESENVOLVIMENTOS</span></h4>
+                                        <p data-i18n="p7.developments">Dashboards interativos com análise educacional e produtiva, visualizações orientadas à decisão rápida e KPIs em tempo real para múltiplas unidades industriais.</p>
+                                    </div>
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-check-circle"></i> <span data-i18n="label.result">RESULTADO</span></h4>
+                                        <p data-i18n="p7.result">Visibilidade operacional consolidada que acelera a tomada de decisão e reduz tempo de análise manual.</p>
+                                    </div>
+                                    <img src="images/project-grafana.jpg" alt="Dashboards Operacionais" class="project-image">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- P8: Excel + Macros -->
+                    <article class="glass-card-enhanced project-accordion-item">
+                        <div class="project-header">
+                            <div class="project-title-row">
+                                <h3 class="project-title">
+                                    <i class="ph-bold ph-file-xls project-icon-main"></i>
+                                    <span data-i18n="p8.title">Automatização Avançada com Excel + Macros</span>
+                                </h3>
+                                <i class="ph-bold ph-caret-down expand-icon"></i>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tech-pill">VBA</span>
+                                <span class="tech-pill">Excel Avançado</span>
+                                <span class="tech-pill">Lógica Condicional</span>
+                            </div>
+                            <p class="project-preview" data-i18n="p8.preview">Eliminação de tarefas repetitivas e controle operativo automatizado com VBA e lógica condicional avançada.</p>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-body-inner">
+                                <div class="project-details">
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-info"></i> <span data-i18n="label.developments">DESENVOLVIMENTOS</span></h4>
+                                        <p data-i18n="p8.developments">Macros VBA com lógica condicional avançada para automação administrativa, geração de relatórios e controle operativo totalmente automatizado.</p>
+                                    </div>
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-check-circle"></i> <span data-i18n="label.result">RESULTADO</span></h4>
+                                        <p data-i18n="p8.result">Eliminação de tarefas repetitivas, padronização de processos e controle operativo com zero erros manuais.</p>
+                                    </div>
+                                    <img src="images/project-rpa.jpg" alt="Excel Macros Automation" class="project-image">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- P9: PI System -->
+                    <article class="glass-card-enhanced project-accordion-item">
+                        <div class="project-header">
+                            <div class="project-title-row">
+                                <h3 class="project-title">
+                                    <i class="ph-bold ph-factory project-icon-main"></i>
+                                    <span data-i18n="p9.title">Interfaces Industriais com PI System</span>
+                                </h3>
+                                <i class="ph-bold ph-caret-down expand-icon"></i>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tech-pill">PI System</span>
+                                <span class="tech-pill">PI Vision</span>
+                                <span class="tech-pill">Integração Industrial</span>
+                            </div>
+                            <p class="project-preview" data-i18n="p9.preview">Visualização de variáveis de processo, telas operacionais e análise em tempo real com PI System (OSIsoft).</p>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-body-inner">
+                                <div class="project-details">
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-info"></i> <span data-i18n="label.applications">APLICAÇÕES</span></h4>
+                                        <p data-i18n="p9.applications">Visualização de variáveis de processo em tempo real, telas operacionais com KPIs e alarmes configurados, e análise histórica de dados industriais via PI System.</p>
+                                    </div>
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-check-circle"></i> <span data-i18n="label.result">RESULTADO</span></h4>
+                                        <p data-i18n="p9.result">Visibilidade operacional em tempo real, redução de falhas não detectadas e maior confiabilidade do processo industrial.</p>
+                                    </div>
+                                    <img src="images/project-pisystem.jpg" alt="PI System Industrial" class="project-image">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- P10: Backend & Data Apps -->
+                    <article class="glass-card-enhanced project-accordion-item">
+                        <div class="project-header">
+                            <div class="project-title-row">
+                                <h3 class="project-title">
+                                    <i class="ph-bold ph-code project-icon-main"></i>
+                                    <span data-i18n="p10.title">Desenvolvimento Backend e Apps de Dados</span>
+                                </h3>
+                                <i class="ph-bold ph-caret-down expand-icon"></i>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tech-pill">Django</span>
+                                <span class="tech-pill">Streamlit</span>
+                                <span class="tech-pill">APIs Python</span>
+                                <span class="tech-pill">Backend</span>
+                            </div>
+                            <p class="project-preview" data-i18n="p10.preview">Aplicações de análise, interfaces de dados e sistemas backend para automação com Django e Streamlit.</p>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-body-inner">
+                                <div class="project-details">
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-info"></i> <span data-i18n="label.developments">DESENVOLVIMENTOS</span></h4>
+                                        <p data-i18n="p10.developments">Aplicações web de análise de dados, interfaces interativas com Streamlit, sistemas backend com Django e APIs Python para integração com automações industriais.</p>
+                                    </div>
+                                    <div class="detail-section">
+                                        <h4><i class="ph ph-check-circle"></i> <span data-i18n="label.result">RESULTADO</span></h4>
+                                        <p data-i18n="p10.result">Soluções completas full-stack que conectam dados industriais com interfaces de usuário intuitivas e sistemas automatizados.</p>
+                                    </div>
+                                    <img src="images/project-automation-new.jpg" alt="Backend e Apps de Dados" class="project-image">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                </div><!-- /projects-accordion -->
+            </div><!-- /presentation-content -->
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="section">
         <div class="container">
-            <h2 class="section-title">Entre em <span class="highlight">Contato</span></h2>
+            <h2 class="section-title"><span data-i18n="section.contact">Entre em</span> <span class="highlight" data-i18n="section.contact.highlight">Contato</span></h2>
             <div class="contact-links-wrapper glass-card">
-                <p class="contact-intro">Estou disponível para discutir novos projetos de automação e análise de dados.</p>
+                <p class="contact-intro" data-i18n="contact.intro">Estou disponível para discutir novos projetos de automação e análise de dados.</p>
                 <div class="contact-links-grid">
                     <a href="https://www.linkedin.com/in/sebastian-zambrano-097200277/" target="_blank" rel="noopener noreferrer" class="contact-link-card glass-card">
                         <div class="contact-icon">
@@ -615,7 +1019,7 @@
                         </div>
                         <div class="contact-link-text">
                             <h4>LinkedIn</h4>
-                            <span>Conecte-se comigo</span>
+                            <span data-i18n="contact.linkedin">Conecte-se comigo</span>
                         </div>
                     </a>
                     
@@ -625,7 +1029,7 @@
                         </div>
                         <div class="contact-link-text">
                             <h4>Instagram</h4>
-                            <span>Siga meu trabalho</span>
+                            <span data-i18n="contact.instagram">Siga meu trabalho</span>
                         </div>
                     </a>
                     
@@ -656,7 +1060,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2026 Sebastian Andrés Zambrano Ledezma. Todos os direitos reservados.</p>
+            <p data-i18n="footer.copyright">&copy; 2026 Sebastian Andrés Zambrano Ledezma. Todos os direitos reservados.</p>
             <div class="footer-links">
                 <a href="#"><i class="ph ph-github-logo"></i></a>
                 <a href="#"><i class="ph ph-linkedin-logo"></i></a>

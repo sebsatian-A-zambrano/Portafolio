@@ -1171,3 +1171,226 @@ footer p {
         height: 220px;
     }
 }
+
+/* Project real image */
+.project-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 12px;
+    border: 1px solid var(--glass-border);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-image:hover {
+    transform: scale(1.01);
+    box-shadow: 0 8px 30px rgba(0, 212, 255, 0.15);
+}
+
+/* =========================================
+   LANGUAGE SWITCHER
+   ========================================= */
+
+.lang-switcher {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    border-radius: 30px;
+    padding: 4px 10px;
+    margin-left: 8px;
+}
+
+.lang-btn {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 3px 7px;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+    font-family: var(--font-body);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.lang-btn.active {
+    background: var(--primary);
+    color: #000;
+}
+
+.lang-btn:hover:not(.active) {
+    color: var(--text-main);
+}
+
+.lang-sep {
+    color: var(--glass-border);
+    font-size: 0.75rem;
+    pointer-events: none;
+}
+
+/* =========================================
+   PRESENTATION SECTION
+   ========================================= */
+
+/* Password Gate */
+.presentation-gate {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.gate-icon {
+    font-size: 3.5rem;
+    color: var(--primary);
+    margin-bottom: 20px;
+    display: block;
+    filter: drop-shadow(0 0 12px var(--primary-glow));
+}
+
+.gate-title {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+    font-family: var(--font-heading);
+}
+
+.gate-desc {
+    color: var(--text-muted);
+    margin-bottom: 30px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.gate-form {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.gate-input {
+    flex: 1;
+    max-width: 260px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    border-radius: 30px;
+    padding: 12px 20px;
+    color: var(--text-main);
+    font-size: 1rem;
+    font-family: var(--font-body);
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gate-input:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.1);
+}
+
+.gate-input.error {
+    border-color: #ff4444;
+    animation: gateShake 0.35s ease;
+}
+
+.gate-error {
+    color: #ff6666;
+    font-size: 0.85rem;
+    margin-top: 14px;
+    min-height: 20px;
+    display: none;
+}
+
+.gate-error.visible {
+    display: block;
+}
+
+@keyframes gateShake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-8px); }
+    75% { transform: translateX(8px); }
+}
+
+/* Presentation Content */
+#presentation-content {
+    display: none;
+}
+
+#presentation-content.visible {
+    display: block;
+}
+
+.presentation-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.presentation-subtitle-badge {
+    display: inline-block;
+    color: var(--primary);
+    font-weight: 600;
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    background: rgba(0, 212, 255, 0.1);
+    padding: 5px 14px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 212, 255, 0.2);
+}
+
+.presentation-name {
+    font-size: 2.2rem;
+    margin-bottom: 12px;
+    font-family: var(--font-heading);
+}
+
+.presentation-tagline {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+/* Logout button */
+.presentation-lock-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+    background: none;
+    border: 1px solid var(--glass-border);
+    color: var(--text-muted);
+    border-radius: 30px;
+    padding: 7px 18px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: var(--font-body);
+}
+
+.presentation-lock-btn:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+@media (max-width: 768px) {
+    .presentation-gate {
+        padding: 40px 24px;
+    }
+    .gate-form {
+        flex-direction: column;
+        align-items: center;
+    }
+    .gate-input {
+        max-width: 100%;
+        width: 100%;
+    }
+    .presentation-name {
+        font-size: 1.6rem;
+    }
+}
