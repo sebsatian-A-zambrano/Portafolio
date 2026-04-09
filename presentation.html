@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação | Sebastián Zambrano</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/presentation.css">
+</head>
+<body>
+    
+    <!-- Background Elements -->
+    <div class="bg-fixed"></div>
+    <div class="bg-overlay"></div>
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+
+    <!-- Auth Modal (shown if not authenticated) -->
+    <div id="authModal" class="auth-modal active">
+        <div class="auth-container glass-card">
+            <div class="auth-header">
+                <h1>🔐 Acesso Restrito</h1>
+                <p>Esta apresentação requer autenticação</p>
+            </div>
+            <form class="auth-form" id="authForm">
+                <div class="form-group">
+                    <label for="password">Senha de Acesso:</label>
+                    <input 
+                        type="password" 
+                        id="password" 
+                        name="password" 
+                        placeholder="Digite a senha"
+                        required
+                    >
+                </div>
+                <button type="submit" class="btn-primary">Acessar</button>
+                <p class="auth-error" id="authError"></p>
+            </form>
+            <div class="auth-footer">
+                <a href="index.html" class="btn-secondary-small">Voltar</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slides Container -->
+    <div id="slidesContent" class="slides-content hidden">
+        <!-- Navigation Header -->
+        <div class="slides-header">
+            <div class="slides-nav">
+                <a href="index.html" class="logo-back">SZ<span class="dot">.</span></a>
+                <div class="slides-controls">
+                    <select id="languageSelect" class="language-select">
+                        <option value="pt-BR">PT-BR</option>
+                        <option value="es-ES">ES-ES</option>
+                    </select>
+                    <div class="slide-counter">
+                        <span id="currentSlide">1</span> / <span id="totalSlides">13</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slides Container -->
+        <div class="slides-container">
+            <div class="slides-wrapper" id="slidesWrapper">
+                <!-- Slide 1: Title -->
+                <div class="slide slide-title active">
+                    <div class="slide-content">
+                        <div class="slide-inner">
+                            <h1 id="slide1Title">🧠 RECOMPILAÇÃO PROFISSIONAL DE PROJETOS</h1>
+                            <p id="slide1Subtitle" class="slide-subtitle">Sebastián Zambrano — Automação & Data Solutions</p>
+                            <div class="slide-intro">
+                                <p id="slide1Intro">Especialista em Automação e Análise de Dados para Indústria 4.0</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2: Potential by Industry -->
+                <div class="slide slide-potential" id="potentialSlide">
+                    <div class="slide-content">
+                        <div class="slide-inner potential-inner">
+                            <div class="project-number" id="potentialCounter">POTENCIAL</div>
+                            <h2 class="project-slide-title" id="potentialTitle">
+                                <i class="ph-bold ph-rocket-launch"></i>
+                                Potencial de Implementacao em Outras Industrias
+                            </h2>
+                            <p class="potential-subtitle" id="potentialSubtitle">
+                                Solucoes ja validadas que podem ser escaladas para novos setores com adaptacao rapida.
+                            </p>
+                            <div class="pitch-mode" id="pitchMode">
+                                <h3 id="pitchTitle">Modo Pitch: Ofertas por Nivel</h3>
+                                <div class="pitch-grid" id="pitchGrid"></div>
+                            </div>
+                            <div class="potential-grid" id="potentialGrid"></div>
+                            <p class="potential-note" id="potentialNote">
+                                As imagens abaixo representam cenarios de aplicacao e nao dados operacionais confidenciais.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slides 3-12: Projects -->
+                <div id="projectSlidesContainer"></div>
+
+                <!-- Slide 13: Thank You -->
+                <div class="slide slide-thanks" id="thanksSlide">
+                    <div class="slide-content">
+                        <div class="slide-inner thanks-inner">
+                            <h2 class="thanks-title" id="thanksTitle">OBRIGADO</h2>
+                            <p class="thanks-subtitle" id="thanksSubtitle">Foi um prazer apresentar estas solucoes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <button class="slide-nav-btn prev" id="prevBtn" title="Anterior">
+                <i class="ph ph-caret-left"></i>
+            </button>
+            <button class="slide-nav-btn next" id="nextBtn" title="Próximo">
+                <i class="ph ph-caret-right"></i>
+            </button>
+        </div>
+
+        <!-- Slide Indicators -->
+        <div class="slide-indicators" id="indicatorsContainer"></div>
+
+        <!-- Keyboard & Touch hint -->
+        <div class="slides-hint">
+            <p id="hintText">Usa ← → ou desliza para navegar</p>
+        </div>
+    </div>
+
+    <script src="js/presentation.js"></script>
+</body>
+</html>

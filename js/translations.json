@@ -1,0 +1,134 @@
+{
+  "pt-BR": {
+    "nav": {
+      "about": "Sobre",
+      "skills": "Skills",
+      "experience": "Experiência",
+      "projects": "Projetos",
+      "presentations": "Apresentações",
+      "contact": "Contato"
+    },
+    "hero": {
+      "subtitle": "Analista de Dados | Automação & Indústria 4.0",
+      "title": "Transformando Dados em",
+      "titleHighlight": "Inteligência Industrial",
+      "description": "Especialista em criar pontes entre dados operacionais e decisões estratégicas. Otimizando processos na DEXCO S.A. através de Python, Power BI, PI System e IA.",
+      "viewProjects": "Ver Projetos",
+      "contact": "Entrar em Contato",
+      "scroll": "Scroll"
+    },
+    "stats": {
+      "experience": "Anos de Experiência",
+      "projects": "Projetos de Automação",
+      "efficiency": "Foco em Eficiência"
+    },
+    "about": {
+      "title": "Sobre",
+      "titleHighlight": "Mim",
+      "description1": "Atuo como Analista de Dados focado em Automação e Indústria 4.0, combinando expertise técnica em sistemas mecânicos com análise de dados avançada. Minha missão é transformar grandes volumes de dados industriais em insights acionáveis que impulsionam a eficiência operacional.",
+      "description2": "Atualmente na DEXCO S.A., lidero iniciativas de digitalização que vão desde a extração de dados brutos do chão de fábrica (PI System) até a visualização executiva (Power BI/Grafana), passando por automações inteligentes (RPA/Python) que eliminam tarefas repetitivas e reduzem erros humanos.",
+      "education": "Análise de Sistemas",
+      "mechanics": "Mecânica Industrial",
+      "universidade": "Unicesumar",
+      "senai": "SENAI"
+    },
+    "skills": {
+      "title": "Minhas",
+      "titleHighlight": "Habilidades",
+      "analysis": "Análise de Dados",
+      "automation": "Automação & RPA",
+      "industrial": "Industrial & IoT"
+    },
+    "experience": {
+      "title": "Jornada",
+      "titleHighlight": "Profissional",
+      "position": "Analista de Dados | Automação & Indústria 4.0",
+      "company": "DEXCO S.A.",
+      "period": "Fev 2024 - Presente"
+    },
+    "projects": {
+      "title": "Projetos",
+      "titleHighlight": "Reais"
+    },
+    "contact": {
+      "title": "Entre em",
+      "titleHighlight": "Contato",
+      "subtitle": "Estou disponível para discutir novos projetos de automação e análise de dados.",
+      "connectLinkedin": "Conecte-se comigo",
+      "followInstagram": "Siga meu trabalho",
+      "whatsappText": "+55 14 99124-6031",
+      "emailText": "sebas0andres0zambrano@gmail.com"
+    },
+    "footer": "Todos os direitos reservados",
+    "presentations": {
+      "title": "Recompilação Profissional de Projetos",
+      "subtitle": "Sebastián Zambrano — Automação & Data Solutions"
+    }
+  },
+  "es-ES": {
+    "nav": {
+      "about": "Acerca de",
+      "skills": "Habilidades",
+      "experience": "Experiencia",
+      "projects": "Proyectos",
+      "presentations": "Presentaciones",
+      "contact": "Contacto"
+    },
+    "hero": {
+      "subtitle": "Analista de Datos | Automatización & Industria 4.0",
+      "title": "Transformando Datos en",
+      "titleHighlight": "Inteligencia Industrial",
+      "description": "Especialista en crear puentes entre datos operacionales y decisiones estratégicas. Optimizando procesos en DEXCO S.A. mediante Python, Power BI, PI System e IA.",
+      "viewProjects": "Ver Proyectos",
+      "contact": "Contactar",
+      "scroll": "Desplazar"
+    },
+    "stats": {
+      "experience": "Años de Experiencia",
+      "projects": "Proyectos de Automatización",
+      "efficiency": "Enfoque en Eficiencia"
+    },
+    "about": {
+      "title": "Acerca",
+      "titleHighlight": "de Mí",
+      "description1": "Actúo como Analista de Datos enfocado en Automatización e Industria 4.0, combinando experiencia técnica en sistemas mecánicos con análisis de datos avanzado. Mi misión es transformar grandes volúmenes de datos industriales en insights accionables que impulsen la eficiencia operacional.",
+      "description2": "Actualmente en DEXCO S.A., lidero iniciativas de digitalización que van desde la extracción de datos brutos del piso de fábrica (PI System) hasta la visualización ejecutiva (Power BI/Grafana), pasando por automatizaciones inteligentes (RPA/Python) que eliminan tareas repetitivas y reducen errores humanos.",
+      "education": "Análisis de Sistemas",
+      "mechanics": "Mecánica Industrial",
+      "universidade": "Unicesumar",
+      "senai": "SENAI"
+    },
+    "skills": {
+      "title": "Mis",
+      "titleHighlight": "Habilidades",
+      "analysis": "Análisis de Datos",
+      "automation": "Automatización & RPA",
+      "industrial": "Industrial & IoT"
+    },
+    "experience": {
+      "title": "Trayectoria",
+      "titleHighlight": "Profesional",
+      "position": "Analista de Datos | Automatización & Industria 4.0",
+      "company": "DEXCO S.A.",
+      "period": "Feb 2024 - Presente"
+    },
+    "projects": {
+      "title": "Proyectos",
+      "titleHighlight": "Reales"
+    },
+    "contact": {
+      "title": "Ponte en",
+      "titleHighlight": "Contacto",
+      "subtitle": "Estoy disponible para discutir nuevos proyectos de automatización y análisis de datos.",
+      "connectLinkedin": "Conéctate conmigo",
+      "followInstagram": "Sigue mi trabajo",
+      "whatsappText": "+55 14 99124-6031",
+      "emailText": "sebas0andres0zambrano@gmail.com"
+    },
+    "footer": "Todos los derechos reservados",
+    "presentations": {
+      "title": "Recopilación Profesional de Proyectos",
+      "subtitle": "Sebastián Zambrano — Automatización & Soluciones de Datos"
+    }
+  }
+}

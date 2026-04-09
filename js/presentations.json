@@ -1,0 +1,332 @@
+{
+  "pt-BR": [
+    {
+      "id": 1,
+      "icon": "ph-message-circle",
+      "title": "Automatização de envio de órdenes de mantenimiento por WhatsApp",
+      "technologies": ["Power Automate", "Excel Avançado", "RPA", "APIs WhatsApp"],
+      "problem": "Distribuição manual de OM's semanais para mecânicos e eletricistas gerava erros e perda de tempo.",
+      "solution": [
+        "Lê planificação semanal desde Excel",
+        "Valida disponibilidade do colaborador",
+        "Evita envios duplicados ou desnecessários",
+        "Envia automaticamente mensagens cada segunda-feira"
+      ],
+      "results": [
+        "Eliminação de envio manual",
+        "Redução de erros operativos",
+        "Comunicação automática com equipes de manutenção"
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "ph-gear",
+      "title": "Automatização de Insights Predictivos TRACTIAN",
+      "technologies": ["Power Automate", "IA NLP", "Email Parsing", "Automatização Industrial"],
+      "problem": "Os insights de monitoramento preditivo chegavam por email e deviam ser distribuídos manualmente.",
+      "solution": [
+        "Identifica fábrica e linha automaticamente",
+        "Limpa HTML do correio",
+        "Usa IA para resumir diagnósticos técnicos",
+        "Envia alertas estruturados para grupos corretos"
+      ],
+      "results": [
+        "Informação acionável imediata",
+        "Melhor tempo de resposta em manutenção"
+      ]
+    },
+    {
+      "id": 3,
+      "icon": "ph-chart-bar",
+      "title": "Análise industrial de secadores (Temperatura vs Produção)",
+      "technologies": ["Python", "Análise Estatística", "BI"],
+      "problem": "Necessidade de determinar se temperaturas elevadas afetam: produção, humidade, padrão produtivo (PP).",
+      "solution": [
+        "Limpeza de dados históricos industriais",
+        "Análise correlacional",
+        "Visualizações de tendência claras"
+      ],
+      "results": [
+        "Base para decisões operacionais baseadas em dados"
+      ]
+    },
+    {
+      "id": 4,
+      "icon": "ph-tree",
+      "title": "Análise de variáveis de patio industrial (Humidade e densidade)",
+      "technologies": ["BI", "Análise Histórica", "Engenharia de Dados"],
+      "problem": "Variações em matéria prima afetavam produção do secador.",
+      "solution": [
+        "Dashboard histórico correlacionando humidade e temperatura",
+        "Análise de impacto produtivo",
+        "Identificação de variáveis críticas"
+      ],
+      "results": [
+        "Compreensão das variáveis que afetam produção"
+      ]
+    },
+    {
+      "id": 5,
+      "icon": "ph-robot",
+      "title": "Automatizações com IA (Langflow + n8n)",
+      "technologies": ["Langflow", "n8n", "APIs IA", "LLM Workflows"],
+      "problem": "Necessidade de automatizar processos complexos com inteligência artificial.",
+      "solution": [
+        "Fluxos automáticos com IA",
+        "Processamento inteligente de textos",
+        "Automatização de decisões operativas",
+        "Integração entre sistemas sem intervenção humana"
+      ],
+      "results": [
+        "Eficiência operacional aumentada",
+        "Redução de tempo de processamento"
+      ]
+    },
+    {
+      "id": 6,
+      "icon": "ph-cloud",
+      "title": "Automatização e processamento de dados em Databricks",
+      "technologies": ["Databricks", "Python", "Data Engineering"],
+      "problem": "Processamento e transformação de grandes volumes de dados industriais.",
+      "solution": [
+        "Transformação de datasets industriais",
+        "Pipelines de análise",
+        "Preparação de dados para BI e IA"
+      ],
+      "results": [
+        "Aceleração do time-to-insight",
+        "Dados prontos para análise"
+      ]
+    },
+    {
+      "id": 7,
+      "icon": "ph-chart-line",
+      "title": "Dashboards Operacionais e BI",
+      "technologies": ["Power BI", "Streamlit", "Python"],
+      "problem": "Necessidade de visualizar dados complexos para decisões rápidas.",
+      "solution": [
+        "Dashboards interativos",
+        "Análise educacional e produtiva",
+        "Visualizações orientadas à decisão rápida"
+      ],
+      "results": [
+        "Redução do tempo de análise",
+        "Decisões baseadas em dados em tempo real"
+      ]
+    },
+    {
+      "id": 8,
+      "icon": "ph-file-spreadsheet",
+      "title": "Automatização avançada com Excel + Macros",
+      "technologies": ["VBA", "Lógica Condicional Avançada"],
+      "problem": "Tarefas repetitivas e administrativas consumindo tempo valioso.",
+      "solution": [
+        "Desenvolvimento de macros inteligentes",
+        "Lógica condicional avançada",
+        "Integração com sistemas"
+      ],
+      "results": [
+        "Eliminação de tarefas repetitivas",
+        "Automatização administrativa",
+        "Controle operativo automatizado"
+      ]
+    },
+    {
+      "id": 9,
+      "icon": "ph-factory",
+      "title": "Interfaces industriais com PI System",
+      "technologies": ["PI System", "Integração Dados Industriais"],
+      "problem": "Visualização em tempo real de variáveis de processo.",
+      "solution": [
+        "Visualização de variáveis de processo",
+        "Telas operacionais customizadas",
+        "Análise em tempo real"
+      ],
+      "results": [
+        "Monitoramento em tempo real",
+        "Resposta rápida a anomalias"
+      ]
+    },
+    {
+      "id": 10,
+      "icon": "ph-code",
+      "title": "Desenvolvimento Backend e Apps de Dados",
+      "technologies": ["Django", "Streamlit", "APIs Python"],
+      "problem": "Necessidade de interfaces para análise e automação de dados.",
+      "solution": [
+        "Aplicações de análise sophisticadas",
+        "Interfaces de dados intuitivas",
+        "Sistemas backend para automatização"
+      ],
+      "results": [
+        "Plataformas de análise customizadas",
+        "Automações escaláveis"
+      ]
+    }
+  ],
+  "es-ES": [
+    {
+      "id": 1,
+      "icon": "ph-message-circle",
+      "title": "Automatización de envío de órdenes de mantenimiento por WhatsApp",
+      "technologies": ["Power Automate", "Excel Avanzado", "RPA", "APIs WhatsApp"],
+      "problem": "La distribución manual de OMs semanales para mecánicos y electricistas generaba errores y pérdida de tiempo.",
+      "solution": [
+        "Lee planificación semanal desde Excel",
+        "Valida disponibilidad del colaborador",
+        "Evita envíos duplicados o innecesarios",
+        "Envía automáticamente mensajes cada lunes"
+      ],
+      "results": [
+        "Eliminación de envío manual",
+        "Reducción de errores operativos",
+        "Comunicación automática con equipos de mantenimiento"
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "ph-gear",
+      "title": "Automatización de Insights Predictivos TRACTIAN",
+      "technologies": ["Power Automate", "IA NLP", "Email Parsing", "Automatización Industrial"],
+      "problem": "Los insights de monitoreo predictivo llegaban por email y debían distribuirse manualmente.",
+      "solution": [
+        "Identifica fábrica y línea automáticamente",
+        "Limpia HTML del correo",
+        "Usa IA para resumir diagnósticos técnicos",
+        "Envía alertas estructurados a grupos correctos"
+      ],
+      "results": [
+        "Información accionable inmediata",
+        "Mejor tiempo de respuesta en mantenimiento"
+      ]
+    },
+    {
+      "id": 3,
+      "icon": "ph-chart-bar",
+      "title": "Análisis industrial de secadores (Temperatura vs Producción)",
+      "technologies": ["Python", "Análisis Estadístico", "BI"],
+      "problem": "Necesidad de determinar si temperaturas elevadas afectan: producción, humedad, estándar productivo (PP).",
+      "solution": [
+        "Limpieza de datos históricos industriales",
+        "Análisis correlacional",
+        "Visualizaciones de tendencia claras"
+      ],
+      "results": [
+        "Base para decisiones operacionales basadas en datos"
+      ]
+    },
+    {
+      "id": 4,
+      "icon": "ph-tree",
+      "title": "Análisis de variables de patio industrial (Humedad y densidad)",
+      "technologies": ["BI", "Análisis Histórico", "Ingeniería de Datos"],
+      "problem": "Las variaciones en materia prima afectaban la producción del secador.",
+      "solution": [
+        "Dashboard histórico correlacionando humedad y temperatura",
+        "Análisis de impacto productivo",
+        "Identificación de variables críticas"
+      ],
+      "results": [
+        "Comprensión de las variables que afectan la producción"
+      ]
+    },
+    {
+      "id": 5,
+      "icon": "ph-robot",
+      "title": "Automatizaciones con IA (Langflow + n8n)",
+      "technologies": ["Langflow", "n8n", "APIs IA", "LLM Workflows"],
+      "problem": "Necesidad de automatizar procesos complejos con inteligencia artificial.",
+      "solution": [
+        "Flujos automáticos con IA",
+        "Procesamiento inteligente de textos",
+        "Automatización de decisiones operativas",
+        "Integración entre sistemas sin intervención humana"
+      ],
+      "results": [
+        "Eficiencia operacional aumentada",
+        "Reducción de tiempo de procesamiento"
+      ]
+    },
+    {
+      "id": 6,
+      "icon": "ph-cloud",
+      "title": "Automatización y procesamiento de datos en Databricks",
+      "technologies": ["Databricks", "Python", "Ingeniería de Datos"],
+      "problem": "Procesamiento y transformación de grandes volúmenes de datos industriales.",
+      "solution": [
+        "Transformación de datasets industriales",
+        "Pipelines de análisis",
+        "Preparación de datos para BI e IA"
+      ],
+      "results": [
+        "Aceleración del time-to-insight",
+        "Datos listos para análisis"
+      ]
+    },
+    {
+      "id": 7,
+      "icon": "ph-chart-line",
+      "title": "Dashboards Operacionales y BI",
+      "technologies": ["Power BI", "Streamlit", "Python"],
+      "problem": "Necesidad de visualizar datos complejos para decisiones rápidas.",
+      "solution": [
+        "Dashboards interactivos",
+        "Análisis educativo y productivo",
+        "Visualizaciones orientadas a decisión rápida"
+      ],
+      "results": [
+        "Reducción del tiempo de análisis",
+        "Decisiones basadas en datos en tiempo real"
+      ]
+    },
+    {
+      "id": 8,
+      "icon": "ph-file-spreadsheet",
+      "title": "Automatización avanzada con Excel + Macros",
+      "technologies": ["VBA", "Lógica Condicional Avanzada"],
+      "problem": "Tareas repetitivas y administrativas consumiendo tiempo valioso.",
+      "solution": [
+        "Desarrollo de macros inteligentes",
+        "Lógica condicional avanzada",
+        "Integración con sistemas"
+      ],
+      "results": [
+        "Eliminación de tareas repetitivas",
+        "Automatización administrativa",
+        "Control operativo automatizado"
+      ]
+    },
+    {
+      "id": 9,
+      "icon": "ph-factory",
+      "title": "Interfaces industriales con PI System",
+      "technologies": ["PI System", "Integración de Datos Industriales"],
+      "problem": "Visualización en tiempo real de variables de proceso.",
+      "solution": [
+        "Visualización de variables de proceso",
+        "Pantallas operacionales personalizadas",
+        "Análisis en tiempo real"
+      ],
+      "results": [
+        "Monitoreo en tiempo real",
+        "Respuesta rápida a anomalías"
+      ]
+    },
+    {
+      "id": 10,
+      "icon": "ph-code",
+      "title": "Desarrollo Backend y Apps de Datos",
+      "technologies": ["Django", "Streamlit", "APIs Python"],
+      "problem": "Necesidad de interfaces para análisis y automatización de datos.",
+      "solution": [
+        "Aplicaciones de análisis sofisticadas",
+        "Interfaces de datos intuitivas",
+        "Sistemas backend para automatización"
+      ],
+      "results": [
+        "Plataformas de análisis personalizadas",
+        "Automatizaciones escalables"
+      ]
+    }
+  ]
+}
